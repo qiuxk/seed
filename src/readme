@@ -1,0 +1,12 @@
+#项目介绍
+seed项目是基于springboot构建的提供api接口项目，使用最通用的技术搭建，为了避免重复造轮子，也是springboot学习过程的汇总
+
+
+# 技术栈： 
+ ## mybatis mybatis-plus 
+ ## redis
+## mysql
+## spring-session
+
+
+# 期望解决在使用的问题包括 跨域、全局统一异常处理、session持久化、swagger。。。。。大致就想到这么多，后续继续补充
