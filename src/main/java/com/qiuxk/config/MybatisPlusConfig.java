@@ -1,4 +1,4 @@
-package com.qiuxk.support.config;
+package com.qiuxk.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * mybatis的配置
  *
  * @author qiuxk
- * @classes com.qiuxk.support.config.MybatisPlusConfig
+ * @classes com.qiuxk.config.MybatisPlusConfig
  * @date 2020-06-22 17:23
  */
 @Configuration

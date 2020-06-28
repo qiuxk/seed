@@ -1,6 +1,5 @@
 package com.qiuxk;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "com.qiuxk")
 //@MapperScan("com.qiuxk.mapper")
+//@EnableSwagger2Doc
 public class SpringbootSeedApplication {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.qiuxk.support.config;
+package com.qiuxk.config;
 
 import com.qiuxk.exception.ServiceException;
 import com.qiuxk.support.CommonResult;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * 全局处理异常的方法
  *
  * @author qiuxk
- * @classes com.qiuxk.support.config.GlobalExceptionHandler
+ * @classes com.qiuxk.config.GlobalExceptionHandler
  * @date 2020-06-20 17:11
  */
 

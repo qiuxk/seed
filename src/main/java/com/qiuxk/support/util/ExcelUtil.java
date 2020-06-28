@@ -5,7 +5,7 @@ import com.alibaba.excel.ExcelReader;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.metadata.Sheet;
 import com.alibaba.excel.support.ExcelTypeEnum;
-import com.qiuxk.support.config.ExcelListen;
+import com.qiuxk.config.ExcelListen;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.*;

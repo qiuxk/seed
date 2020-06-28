@@ -1,4 +1,4 @@
-package com.qiuxk.support.config;
+package com.qiuxk.config;
 
 import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.event.AnalysisEventListener;
@@ -11,7 +11,7 @@ import java.util.List;
  * excel监听器
  *
  * @author qiuxk
- * @classes com.qiuxk.support.config.ExcelListen
+ * @classes com.qiuxk.config.ExcelListen
  * @date 2020-06-28 11:33
  */
 @Component
