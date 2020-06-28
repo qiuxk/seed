@@ -1,2 +1,28 @@
 server:
   port: 9090
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ibbroker?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: ibbrokersa
+    password: tnFI4uzs44
+   # type: com.zaxxer.hikari.HikariDataSource
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 0 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 1 # 逻辑未删除值(默认为 0)
+
+
+#修改日志级别 可以在控制台中打印sql todo 后期需要配置到logback的配置文件中 临时处理办法
+logging:
+  level:
+    com.qiuxk.mapper: debug
+
